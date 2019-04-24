@@ -1,0 +1,15 @@
+{
+  "name": "blocipedia-node",
+  "version": "1.0.0",
+  "description": "A \u001b[Dn application for users to create, collaborate, and share wikis",
+  "main": "\u001b[D\u001b[D\u001b[D\u001b[n\u001b[D\u001bserver\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Drc/srv\u001b[D\u001b[Derver.js)",
+  "scripts": {
+    "test": "set NODE_ENV=test && jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "blocipedia-node"
+  },
+  "author": "",
+  "license": "ISC"
+}
