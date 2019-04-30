@@ -1,0 +1,30 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": null,
+    "database": "blocipedia-dev",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "logging": false,
+    "operatorsAliases": false
+  },
+  "test": {
+    "username": "postgres",
+    "password": null,
+    "database": "blocipedia-test",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "logging": false,
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "process.env.https://git.heroku.com/natashachuk-blocipedia-node.git",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "logging": false,
+    "operatorsAliases": false,
+    "use_env_variable": "postgres://fiyukefmywqsid:26edf59c0cf8e938d55f238614434c9c61bb4b690c01d44e87c4f45c1dbaeb18@ec2-54-243-241-62.compute-1.amazonaws.com:5432/dcopqsbcb701q9"
+  }
+}

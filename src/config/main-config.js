@@ -1,7 +1,9 @@
 require("dotenv").config();
 
-module.exports = {
-	init(){
+  const logger = require('morgan'); 
 
+module.exports = {
+	init(app, express){
+		app.use(logger('dev'));
 	}
 };
